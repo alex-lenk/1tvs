@@ -1,0 +1,48 @@
+.footer {
+  margin-bottom: 30px;
+  font-size: 14px;
+  .as-link {
+    padding: 0;
+    background: transparent;
+    border: 0;
+    text-align: left;
+  }
+  li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+.footer-inner {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid #bcbcbc;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-block {
+  padding: 0 15px;
+}
+
+.footer-title {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #24404d;
+  text-transform: uppercase;
+}
+
+.footer-pay__list {
+  display: flex;
+  align-items: center;
+  span {
+    max-width: 100px;
+    padding: 0 10px;
+  }
+}
+
+.footer-phone {
+  color: #000;
+  &:hover {
+    color: #f26e20;
+  }
+}

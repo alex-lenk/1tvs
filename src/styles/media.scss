@@ -1,0 +1,139 @@
+@import 'lib/breakpoint';
+@import 'lib/breakpoint-slicer';
+@import "common/variables";
+@import "common/mixin";
+
+@media (min-width: 768px) {
+  .header-info {
+    max-width: 79%;
+  }
+  .header-logo {
+    width: 21%;
+    min-height: 200px;
+  }
+  .footer-block {
+    width: calc(100% / 3);
+  }
+}
+
+@media (min-width: 993px) {
+  .general-content-left {
+    width: 78%;
+  }
+  .general-content-right {
+    width: 20%;
+    padding: 10px 10px 0;
+  }
+}
+
+@media (min-width: 1255px) {
+  .header-top {
+    padding-left: 30px;
+  }
+  .header-pre-title {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .general-content-left {
+    padding: 25px 30px;
+  }
+  .footer-inner {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+//**************************************************
+
+@media (max-width: 1255px) {
+  .container,
+  .header-pre-title {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .general-content-left {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .general-content {
+    flex-wrap: wrap;
+  }
+  .general-content-left {
+    width: 100%;
+    order: 1;
+  }
+  .general-content-right {
+    width: 100%;
+    padding-top: 10px;
+    margin-bottom: 30px;
+  }
+  .panel-group {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .menu-block {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header-top {
+    flex-direction: column;
+  }
+  .header-info {
+    width: 100%;
+    margin-bottom: 0;
+    order: 1;
+  }
+  .header-logo {
+    padding-top: 25px;
+  }
+}
+
+@media (max-width: 575px) {
+  .header-pre-title {
+    color: #000;
+    background-color: transparent;
+    text-align: center;
+    a {
+      display: none;
+    }
+  }
+
+  .menu-block {
+    width: 100%;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    .footer-block:not(:last-of-type) {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .menu-block {
+    width: calc(100% / 2);
+  }
+
+  .footer-block {
+    width: calc(100% / 2);
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .menu-block {
+    width: calc(100% / 3);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1255px) {
+  .header-top {
+    padding-left: 15px;
+  }
+}
