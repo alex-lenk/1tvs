@@ -40,6 +40,7 @@
   min-height: 50px;
   color: #fff;
   background-color: #f26e20;
+  position: relative;
   display: flex;
   align-items: center;
   a {
@@ -59,5 +60,19 @@
       background-size: contain;
       content: '';
     }
+  }
+  .errors {
+    position: absolute;
+    top: -47px;
+    left: 0;
+    color: #000;
+  }
+  #contact-form {
+    display: flex;
+    align-items: center;
+  }
+  .order-b {
+    margin-right: 30px;
+    line-height: 1.1;
   }
 }
