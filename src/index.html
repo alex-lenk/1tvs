@@ -12,9 +12,19 @@
         </div>
         <div class="header-logo"><a href="/"><img src="img/logo.png" alt=""></a></div>
     </div>
-    <div class="header-pre-title">
-        Московский Государственный Университет Дизайна и Технологии
-        <a href="tel:+74952011300" rel="nofollow">+7 (495) 201-13-00</a>
+    <div class="header-panel">
+        <div class="header-panel-contact" data-toggle="modal" data-target="#feedback-form7">КОНТАКТЫ И РЕГИСТРАЦИЯ</div>
+        <div class="header-panel-support">
+            <form method="post" action="/" class="header-panel-support__form" id="contact-form">
+                <div class="header-panel-support__group">
+                    <input type="text" name="user_name" placeholder="Представтесь" value="" class="form-control">
+                    <input type="text" name="phone" placeholder="Номер телефона" class="form-control">
+                </div>
+                <input type="submit" name="submit" class="btn btn-light" value="жду звонка" tabindex="-1">
+                <input type="hidden" name="formid" value="contact-form">
+            </form>
+            <a href="tel:+74952011300" class="header-panel-phone" rel="nofollow">+7 (495) 201-13-00</a>
+        </div>
     </div>
 </header>
 
@@ -72,12 +82,6 @@
 
     <aside class="general-content-right">
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-            <div class="menu-block panel">
-                <h2 class="menu-block-title collapsed">
-                    <span data-toggle="modal" data-target="#feedback-form7">КОНТАКТЫ И РЕГИСТРАЦИЯ</span>
-                </h2>
-            </div>
-
             <div class="menu-block panel">
                 <h2 class="menu-block-title collapsed">
                     <a href="http://mgudt.ru" target="_blank" rel="nofollow">Первое высшее.<br>
