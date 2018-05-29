@@ -9,7 +9,6 @@
   }
   .header-logo {
     width: 21%;
-    min-height: 200px;
   }
   .footer-block {
     width: calc(100% / 3);
@@ -66,7 +65,11 @@
 }
 
 @media (max-width: 992px) {
-  .general-content {
+  .header-panel-contact {
+    max-width: 160px;
+  }
+    
+    .general-content {
     flex-wrap: wrap;
   }
   .general-content-left {
