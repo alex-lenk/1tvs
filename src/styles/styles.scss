@@ -6,7 +6,6 @@
 @import "common/common";
 @import "blocks/embed-responsive";
 @import "blocks/modal";
-//@import "common/form";
 @import "common/btn";
 /* blocks */
 @import "blocks/header";
@@ -14,15 +13,3 @@
 @import "blocks/iframe";
 @import "blocks/menu-block";
 @import "blocks/footer";
-
-.panel-body ul {
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-    a {
-        font-weight: bold;
-    }
-    li li a {
-        font-weight: normal;
-    }
-}

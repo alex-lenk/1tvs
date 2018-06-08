@@ -1,8 +1,5 @@
 .menu-block {
   margin-bottom: 10px;
-  li:not(:last-child) {
-    margin-bottom: 10px;
-  }
 }
 
 .menu-block-title {
@@ -30,6 +27,34 @@
   }
 }
 
-.menu-block-content ul {
-  padding: 15px 0;
+.menu-block-content {
+  ul {
+    padding-top: 7px;
+    line-height: 1.1;
+    ul {
+      padding-top: 10px;
+    }
+  }
+  li {
+    margin-bottom: 15px;
+    li {
+      margin-bottom: 5px;
+    }
+  }
+}
+
+.panel-body {
+  padding-top: 10px;
+}
+
+.panel-body ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  a {
+    font-weight: bold;
+  }
+  li li a {
+    font-weight: normal;
+  }
 }
