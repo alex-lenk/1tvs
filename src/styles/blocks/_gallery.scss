@@ -1,0 +1,17 @@
+.gallery {
+  margin-bottom: 15px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery div {
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .gallery div {
+    width: calc(100% / 3);
+  }
+}

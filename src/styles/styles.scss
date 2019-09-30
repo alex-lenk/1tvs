@@ -1,5 +1,6 @@
 @import 'lib/breakpoint';
 @import 'lib/breakpoint-slicer';
+@import 'lib/lib';
 /* common */
 @import "common/variables";
 @import "common/mixin";
@@ -13,3 +14,5 @@
 @import "blocks/iframe";
 @import "blocks/menu-block";
 @import "blocks/footer";
+/* media styles */
+@import "common/media";
